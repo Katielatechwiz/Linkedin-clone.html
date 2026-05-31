@@ -4,13 +4,6 @@ padding: 0;
 box-sizing: border-box;
 }
 
-nav {
-  background-color: white;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
 
 ul{
   list-style: none;
@@ -54,4 +47,28 @@ main{
   height: 60px;
   background-color: rgb(221, 231, 241);
 }
+
+.post-composer {
+  background-color: white;
+  border: 1px solid #e0ddd8;
+  padding: 12px;
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-composer img{
+  width: 80px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-composer input{
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #e0ddd8;
+ border-radius: 20px;
+ outline: none;
+}
+
 
